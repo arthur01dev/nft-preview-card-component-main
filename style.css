@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(217, 54%, 11%);
+}
+
+.caixa {
+  background: hsl(216, 50%, 16%);
+  width: 335px;
+  height: 549px;
+  margin-left: 530px;
+  margin-top: 58px;
+  padding: 18px;
+  font-family: "Outfit", sans-serif;
+  border-radius: 12px;
+  box-shadow: 12px 12px 12px 12px hsl(215, 55%, 8%);
+}
+
+.picture img {
+  width: 300px;
+  height: 280px;
+  border-radius: 8px;
+}
+
+.title a {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+  font-weight: 600;
+  padding: 18px 0;
+  display: inline-block;
+}
+
+.title a:hover {
+  color: hsl(178, 100%, 50%);
+  text-decoration: none;
+}
+
+.information {
+  color: hsl(215, 41%, 66%);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.info-eth-dias{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+}
+
+.eth, .dias{
+  display: flex;
+  align-items: center;
+}
+
+.eth img {
+  width: 10px;
+  height: 19px;
+}
+
+.eth p{
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  padding-left: 7px;
+}
+
+.dias img {
+  width: 17px;
+  height: 18px;
+}
+
+.dias p{
+  color: hsl(215, 41%, 66%);
+  font-weight: 300;
+  padding-left: 7px;
+}
+
+hr{
+  border-color:hsl(215, 32%, 34%);
+}
+
+.perfil{
+  display: flex;
+  align-items: center;
+  padding: 18px;
+}
+
+.perfil img {
+  width: 34px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.perfil p{
+  color: hsl(215, 41%, 66%);
+  padding-left: 15px;
+}
+
+.perfil a{
+  font-weight: 300;
+}
